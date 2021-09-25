@@ -1,0 +1,34 @@
+{
+    "name": "A Simple Platformer - Copy - Copy - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "controller": "*",
+        "color-coded-tilemap": "*",
+        "arcade-text": "github:pelikhan/arcade-image-text#v0.0.4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.5.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
